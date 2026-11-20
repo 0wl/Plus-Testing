@@ -1,0 +1,2 @@
+# less than 45MB core files (value in KiB)
+MAX_COREDUMPS_SIZE=46080

@@ -1,0 +1,186 @@
+#
+[common]
+Release = "MIBStd2_Online_Approval"
+MUVersion = "V432"
+SkipSaveTrainName = "true"
+Vendor = "TechniSat"
+TsdBuildNumber = "1"
+Variant = "17201"
+Variant2 = "17202"
+Variant3 = "17203"
+Variant4 = "17204"
+Variant5 = "17205"
+Variant6 = "17206"
+Variant7 = "17207"
+Variant8 = "17208"
+Variant9 = "17210"
+Variant10 = "17212"
+Variant11 = "17213"
+Variant12 = "17214"
+Variant13 = "17215"
+Variant14 = "17216"
+Variant15 = "17217"
+Variant16 = "17218"
+Variant17 = "17220"
+Variant18 = "17222"
+Variant19 = "17223"
+Variant20 = "37201"
+Variant21 = "37202"
+Variant22 = "37204"
+Variant23 = "37205"
+Variant24 = "37206"
+Variant25 = "37207"
+Variant26 = "37208"
+Variant27 = "37209"
+Variant28 = "37210"
+Variant29 = "37211"
+Variant30 = "37212"
+Variant31 = "37213"
+Variant32 = "47201"
+Variant33 = "47202"
+Variant34 = "47203"
+Variant35 = "47204"
+Variant36 = "47205"
+Variant37 = "47206"
+Variant38 = "47207"
+Variant39 = "47208"
+Variant40 = "47209"
+Variant41 = "47210"
+Variant42 = "47211"
+Variant43 = "17224"
+Variant44 = "37214"
+Variant45 = "47213"
+Variant46 = "47214"
+Variant47 = "47215"
+Variant48 = "47216"
+Region = "Europe"
+Region2 = "RoW"
+Region3 = "USA"
+Region4 = "CN"
+Region5 = "JP"
+Region6 = "KR"
+SkipFileCopyChecksum = "true"
+
+DelMmeBackups = "true"
+CheckAllUpdates = "true"
+MetafileChecksum = "070660bad34a037050faed61df77ce4eb68316e2"
+#
+[cpu]
+VendorInfo = "TechniSat"
+DeviceDescription = "cpu"
+DeviceRelease = "1"
+RequiredVersionOfDM = "0"
+DangerousBoloUpdate = "false"
+NoExclusiveBoloUpdate = "false"
+MainUnitDevice = "false"
+#
+[cpu\onlineservices\1\default\Dir]
+FileSize = "11012"
+Source = ""
+Destination = "/"
+Version = "1157"
+Checksum = "04605628c2c1fd4ef65d0928ef4601b65b516c66"
+#
+[cpu\InfoFile\1\default\File]
+FileSize = "348"
+Source = "Update.txt"
+Destination = "/tsd/etc/cpu_update.txt"
+Version = "1"
+Checksum = "7a005a0b493b41a229a0f799cff797ce1bd61a47"
+[cpu\InfoFile\2\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\3\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\4\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\5\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\6\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\7\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\8\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\9\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\10\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\11\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\12\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\13\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\14\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\15\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\16\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\17\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\InfoFile\18\default\File]
+Link = "[cpu\InfoFile\1\default\File]"
+[cpu\onlineservices\2\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\3\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\4\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\5\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\6\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\7\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\8\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\9\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\10\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\11\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\12\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\13\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\14\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\15\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\16\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\17\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\18\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\19\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\20\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\21\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\22\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\23\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\24\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\33\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\34\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\35\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[cpu\onlineservices\36\default\Dir]
+Link = "[cpu\onlineservices\1\default\Dir]"
+[Signature]
+signature1 = "00000000000000000000000000000000"
+signature2 = "00000000000000000000000000000000"
+signature3 = "00000000000000000000000000000000"
+signature4 = "00000000000000000000000000000000"
+signature5 = "00000000000000000000000000000000"
+signature6 = "000000000001428a2f98d728786aa68a"
+signature7 = "c8e7546ab4fd7b050fbb5d6eda0a2814"
+signature8 = "bfd80fad20096b2799a1047023ecf55c"

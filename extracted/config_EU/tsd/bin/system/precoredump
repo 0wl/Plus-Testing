@@ -1,0 +1,120 @@
+#!/bin/ksh
+
+echo "executing coredump prepare script..."
+
+print_header()
+{
+   case "${1}" in
+      "cmq")
+         echo "*********************************************"
+         echo "********** Communcation Queue FULL **********"
+         echo "********** Process to be identified *********"
+         echo "*************** and dumped ******************"
+         echo "*********************************************"
+         ;;
+      "crash")
+         echo "*********************************************"
+         echo "********* Service died unexpectedly *********"
+         echo "********** Process to be identified *********"
+         echo "*************** and dumped ******************"
+         echo "*********************************************"
+         ;;
+      "term")
+         echo "*********************************************"
+         echo "****** Service terminated unexpectedly ******"
+         echo "*********************************************"
+         ;;
+      "apw")
+         echo "*********************************************"
+         echo "***********Application watchdog**************"
+         echo "****                   .-.               ****"
+         echo "****   (______________()6 \`-,            ****"
+         echo "****   (   _________   /''\"\`             ****"
+         echo "****   //\\\\\\\\         //\\\\\\\\                 ****"
+         echo "****   \"\" \"\"        \"\" \"\"                ****"
+         echo "********** Process to be identified *********"
+         echo "*************** and dumped ******************"
+         echo "*********************************************"
+         ;;
+      "hmi")
+         echo "*********************************************"
+         echo "******** The HMI is not feeling well ********"
+         echo "*********************************************"
+         # knock on port 5421 to trigger a Java stack trace
+         telnet 127.0.0.1 5421 > /dev/null &
+         sleep 5
+         ;;
+      "mem")
+         echo "*********************************************"
+         echo "************ System memory low **************"
+         echo "*********************************************"
+         ;;
+      "imx")
+         echo "*********************************************"
+         echo "********* i.MX watchdog timed out ***********"
+         echo "*********************************************"
+         # Try to dump CpuRoot on the other side...
+         (
+            on -f imx6 /bin/ksh -c 'echo -n "\$apw $(slay -p tsd.mibstd2.cpu.root) iMX6.MCP tsd.mibstd2.cpu.root imx-watchdog-timeout" > /proc/dumper'
+            echo "done" > /tmp/imx-wd-done
+         ) &
+         ;;
+      "net")
+         echo "*********************************************"
+         echo "******** J5 network connection lost *********"
+         echo "*********************************************"
+         ;;
+      "dsp")
+         echo "*********************************************"
+         echo "*********** DSP watchdog timeout ************"
+         echo "*********************************************"
+         ;;
+   esac
+
+   echo "arg : $*"
+   echo -n "date: "
+   date
+   echo "*********************************************"
+   aps show -vvv
+   echo "*********************************************"
+   top -d -i 1 < /dev/ser1
+}
+
+# XXX: /tsd/var/core has been observed at least once to be a file!
+if [[ -f "${COREDIR_BASE}" ]] ; then
+   rm -rf "${COREDIR_BASE}"
+fi
+
+# make sure core file directory exists
+if mkdir -p "${COREDIR}" ; then
+   # keep track of core file directories
+   echo ${STARTUP} > "${COREDIR_BASE}/.startup-no"
+
+   # determine session number
+   if [[ -r "${COREDIR}/.SESSION_NO" ]] ; then
+      read SESSION < "${COREDIR}/.SESSION_NO"
+   else
+      SESSION=0
+   fi
+   : $(( SESSION++ ))
+   echo $SESSION > "${COREDIR}/.SESSION_NO"
+   SESSION="${COREDIR}/SESSION-${SESSION}"
+
+   # remember session for postcoredump script
+   echo "${SESSION}" > /tmp/current-session
+
+   # dump session file name to stdout to make it easier to find
+   # the right session file
+   echo "*********************************************"
+   echo "Dumping Sessionfile to ${SESSION}"
+   echo "*********************************************"
+
+   # create initial part of session file
+   print_header "$@" > "${SESSION}" 2>&1
+else
+   # Cannot write session file. Print important stuff on stdout.
+   "FATAL ERROR: FAILED TO CREATE CORE FILE DIRECTORY!!! -> CURRENT CORE FILE WILL DROP AWAY!!!"
+   print_header "$@"
+fi
+
+echo "finished executing coredump prepare script!"

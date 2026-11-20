@@ -1,0 +1,143 @@
+#!/bin/ksh
+
+echo "executing post coredump script..."
+
+sync_emmc()
+{
+   if [[ -e /cpu ]] ; then
+      on -fimx6 sync
+   else
+      sync
+   fi
+}
+
+cat_file()
+{
+   echo "BEGIN OF ${1}"
+   cat "${1}"
+   echo "END OF ${1}"
+}
+
+purge_cores()
+{
+   # list all directories in /tsd/var/core, sorted numerically
+   cd "${COREDIR_BASE}"
+   DIRS="$(ls -D1 | sort -n -t- -k2)"
+
+   # Go through all startup-* directories and delete them as long as the used
+   # disk space is above the threshold.
+   for d in $DIRS ; do
+      case "$d" in
+         startup-*)
+            # check disk space
+            set -- $(du -sk .)
+            if [[ "$1" -lt "$MAX_COREDUMPS_SIZE" ]] ; then
+               return
+            fi
+
+            # delete old core file
+            echo "$1 kB used on ${COREDIR_BASE}. Purge $d..." >&2
+            rm -rf "$d"
+            ;;
+      esac
+   done
+}
+
+# sync what we have until now
+sync_emmc
+
+# read config
+MAX_COREDUMPS_SIZE=46080
+DSP_DUMP_ARGS=
+. /tsd/etc/system/config.rc
+VERSFILEDIR=/tsd/var/swdownload/swdlhistory
+SWDLSELECTION=/tsd/var/swdownload/swdlselection.tmp
+
+# amend and compress session file
+if read SESSION < "/tmp/current-session" ; then
+   rm "/tmp/current-session"
+   {
+      if [[ -f "${SWDLSELECTION}" ]] ; then
+         echo "*********************************************"
+         echo "*!!!! ATTENTION SWDOWNLOAD IN PROGRESS !!!!!*"
+         echo "*********************************************"
+
+         echo "BEGIN OF ${SWDLSELECTION}"
+         head -n25 "${SWDLSELECTION}"
+         echo "END OF ${SWDLSELECTION}"
+
+         cat_file /tsd/var/swdownload/swdljournal.tmp
+      fi
+
+      echo "*********************************************"
+      echo "************ SwDownload History *************"
+      echo "*********************************************"
+
+      for VERSFILE in $(ls "${VERSFILEDIR}"/swdownload*.conf 2>/dev/null) ; do
+         cat_file "${VERSFILE}"
+      done
+
+      echo "*********************************************"
+      echo "****************** SLOGINFO *****************"
+      echo "*********************************************"
+
+      sloginfo -t
+
+      echo "*********************************************"
+      echo "Some information about the system state *****"
+      echo "*********************************************"
+      pidin -F "%a %3b %N %c %d %m %M" -M "             %40M %< %= %> %?"
+      echo "*********************************************"
+      pidin -F "%a %3b %N %55h %p %H %J %K %B %z"
+      echo "*********************************************"
+      case "$1" in
+         "crash" | "apw" | "cmq")
+            if [[ "$2" -ne 0 ]] ; then
+               showmem -Dm $2
+               echo "*********************************************"
+            fi
+            ;;
+         "mem")
+            showmem -Dm
+            echo "*********************************************"
+            ;;
+         "net")
+            pidin -p io-pkt-v6-hc irq
+            echo "*********************************************"
+            showmem -Dm $(slay -p io-pkt-v6-hc)
+            echo "*********************************************"
+            ;;
+      esac
+   } >> "${SESSION}" 2>&1
+
+   # compress session file
+   gzip "${SESSION}"
+
+   case "$1" in
+      "dsp")
+         /tsd/bin/system/tsd.mibstd2.config.dspdump ${DSP_DUMP_ARGS} ${COREDIR}
+         ;;
+      "imx")
+         # Wait for dumping on i.MX6 side to finish (but at most 20s)
+         waitfor "/tmp/imx-wd-done" 20
+         ;;
+   esac
+
+   # Purge old core dumps
+   purge_cores
+
+   # make sure all is persistent
+   sync_emmc
+else
+   # stdout is all we have left. restrict to the most crucial information
+   echo "*********************************************"
+   echo "****************** SLOGINFO *****************"
+   echo "*********************************************"
+   sloginfo -t -s 4
+   echo "*********************************************"
+   echo "Some information about the system state *****"
+   echo "*********************************************"
+   pidin -F "%a %3b %N %55h %p %H %J %K %B %z"
+fi
+
+echo "finished executing post coredump script!"

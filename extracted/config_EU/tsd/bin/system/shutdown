@@ -1,0 +1,8 @@
+
+echo "executing shutdown script..."
+
+slay -sSIGKILL tsd.mibstd2.hmi.anim.cpp
+shutdown -b -f -v
+
+echo "finished executing shutdown script!"
+

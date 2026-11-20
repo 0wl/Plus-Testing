@@ -1,0 +1,83 @@
+# remove preload lib hack
+unset LD_PRELOAD
+
+# create sched partitions
+aps create -b30 -B100 srv
+aps create -b10 -B100 usr
+
+on -p 14 mount_ifs -B 262144 -T -d -f /tsd/bin/ifs/system.ifs -m /
+
+# hint: start after systemifs
+/sbin/io-pkt-v6-hc -S -ptcpip stacksize=65535
+
+# Redo the hmi update here, because of the ifs behind
+if [ -d /tsd/tmp/hmi -o -d /tsd/tmp/j9 ] ; then
+   mount -t qnx6 -o remount,rw /dev/hd0t177 /
+   if [ -d /tsd/tmp/hmi ] ; then
+      rm -rf /tsd/hmi
+      mv /tsd/tmp/hmi /tsd/hmi
+   fi
+   if [ -d /tsd/tmp/j9 ] ; then
+      rm -rf /j9
+      mv /tsd/tmp/j9 /j9
+   fi
+   mount -t qnx6 -o remount,ro /dev/hd0t177 /
+fi
+
+# put core files in separate directories for each startup
+COREDIR_BASE=/tsd/var/core
+read STARTUP < "${COREDIR_BASE}/.startup-no"
+STARTUP=${STARTUP:-0}
+: $((STARTUP++))
+COREDIR="${COREDIR_BASE}/startup-${STARTUP}"
+
+export COREDIR
+export COREDIR_BASE
+export STARTUP
+
+echo "Current core file directory: ${COREDIR}"
+echo -n "Current core file directory: ${COREDIR}" > /dev/console
+
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/tsd/lib/common:/tsd/hmi"
+
+# run above root, so we make sure the coredump is written before the root gives the reset cmd
+on -p26 /tsd/bin/system/tsd.mibstd2.config.dfilter "${COREDIR}" /tsd/etc/system/fullcores.cfg &
+
+random -t
+
+# Debug:
+# mount -o remount,rw /
+# slay -P 30 $$
+
+test -d /tsd/var/root || mkdir -p /tsd/var/root
+cd /tsd/bin/root
+
+sysctl -w net.inet.tcp.recvspace=131072
+sysctl -w net.inet.tcp.sendspace=65536
+
+echo "Starting tsd.mibstd2.radio.root..."
+export TSD_COMMON_CONFIG=/tsd/etc/system/tsd.mibstd2.radio.root.conf
+export TSD_LOGCHANNEL=J5e
+
+# Start radio root in a subshell, so that the shell can run in foreground and after exit we can call the shutdown stuff
+(
+  if [ -x /tsd/var/testinterface/tsd.mibstd2.system.testinterface ] ; then
+    cp /tsd/var/testinterface/tsd.mibstd2.system.testinterface /tmp
+    CFG=/tsd/etc/system/factory/radio.conf
+    RCFG=$CFG
+  else
+    CFG=/tsd/etc/system/radio.conf
+    RCFG=/tsd/etc/system/lsmradio/radio.conf
+  fi
+
+  if on -p25 /tsd/bin/root/tsd.mibstd2.radio.root "-file=${CFG}" -swdlfile=/tsd/etc/system/swdl/radio_swdl.conf "-radiofile=$RCFG"  -reset=/tsd/var/root/reset.count ; then
+    echo "radio.root terminated -> calling shutdown script"
+
+    # source it to avoid spawning a new shell
+	 . /tsd/bin/system/shutdown
+
+    echo "shutdown finished!"
+  fi
+) &
+sleep 60
+on -p25 /tsd/bin/system/tsd.mibstd2.config.memwatch 10485760 'echo "\$mem" > /proc/dumper' &

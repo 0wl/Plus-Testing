@@ -1,0 +1,1083 @@
+/usr/lib/ldqnx.so.2
+libsocket.so.3
+clock_gettime
+pthread_create
+pthread_getspecific
+strerror
+pthread_attr_init
+_Tolotab
+__cxa_finalize
+freeaddrinfo
+ConnectDetach
+pthread_once
+__deregister_frame_info
+setsockopt
+pthread_key_create
+__get_errno_ptr
+pthread_attr_setstacksize
+inet_aton
+gettimeofday
+MsgSendv
+shutdown
+pthread_mutex_unlock
+pthread_self
+getaddrinfo
+pthread_mutex_lock
+_Jv_RegisterClasses
+__register_frame_info
+pthread_setspecific
+libz.so.2
+vsnprintf
+__aeabi_uidiv
+__aeabi_uidivmod
+libstdc++.so.6
+__aeabi_unwind_cpp_pr0
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSs5beginEv
+_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZTISt9exception
+_ZNSt15basic_streambufIcSt11char_traitsIcEEC2Ev
+_ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_RS3_
+__cxa_free_exception
+_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
+_ZNSt15_List_node_base4hookEPS_
+_ZNSt15_List_node_base6unhookEv
+__cxa_begin_catch
+_ZNSt13runtime_errorC2ERKSs
+_ZNSs4_Rep10_M_destroyERKSaIcE
+_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_
+_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+_ZNSs7replaceEjjRKSs
+_ZNSt14basic_ifstreamIcSt11char_traitsIcEE5closeEv
+_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+pthread_mutex_init
+_ZNSi10_M_extractIjEERSiRT_
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj
+pthread_mutexattr_settype
+_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_
+_ZNSt13runtime_errorD2Ev
+_ZNKSs13find_first_ofERKSsj
+_ZNKSs17find_first_not_ofERKSsj
+_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
+_ZNKSs5rfindEcj
+_ZSt20__throw_length_errorPKc
+_ZNSbIwSt11char_traitsIwESaIwEE5clearEv
+_ZNKSs7compareERKSs
+__cxa_guard_release
+_ZNKSs8_M_checkEjPKc
+_ZNSsC1ERKSsjj
+__aeabi_unwind_cpp_pr1
+_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base
+_ZNSs4_Rep9_S_createEjjRKSaIcE
+_ZNKSt13runtime_error4whatEv
+_ZNSs6insertEjRKSs
+_ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_
+_ZNSsC1EPKcRKSaIcE
+_ZNSs6resizeEj
+_ZNSs6rbeginEv
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+_ZTTSt14basic_ofstreamIcSt11char_traitsIcEE
+__cxa_call_unexpected
+_ZNSs13_S_copy_charsEPcPKcS1_
+_ZStrsIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_E
+_ZNSt9basic_iosIcSt11char_traitsIcEE10exceptionsESt12_Ios_Iostate
+_ZSt4cerr
+_ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+_ZNSi10_M_extractIdEERSiRT_
+_ZNSt13basic_fstreamIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
+__cxa_pure_virtual
+_ZNSt13basic_fstreamIcSt11char_traitsIcEED1Ev
+_ZNSsD1Ev
+__aeabi_atexit
+_ZNSbIwSt11char_traitsIwESaIwEE9push_backEw
+_ZNSsC1EPKcjRKSaIcE
+_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+_ZNSs7reserveEj
+_ZNSs3endEv
+_ZTTSt14basic_ifstreamIcSt11char_traitsIcEE
+__cxa_allocate_exception
+_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E
+_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+_ZSt20__throw_out_of_rangePKc
+__assert
+_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St8_SetfillIS3_E
+_ZNKSbIwSt11char_traitsIwESaIwEE6substrEjj
+__gxx_personality_v0
+_ZNSs5eraseEjj
+_ZNSs4_Rep20_S_empty_rep_storageE
+_ZNSs2atEj
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+_ZNSt14basic_ofstreamIcSt11char_traitsIcEE5closeEv
+_ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev
+pthread_mutexattr_destroy
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_E
+_ZNKSs4findERKSsj
+_ZNKSs7compareEPKc
+_ZNKSs4findEPKcjj
+_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev
+_ZNKSt13basic_filebufIcSt11char_traitsIcEE7is_openEv
+_ZNKSs6substrEjj
+__cxa_throw
+__cxa_guard_abort
+_ZNSiC2Ev
+_ZNSo5writeEPKci
+_ZNSbIwSt11char_traitsIwESaIwEE7reserveEj
+_ZNSs6appendEPKcj
+_ZSt17__throw_bad_allocv
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE
+_ZNSs4rendEv
+_ZNSt9basic_iosIcSt11char_traitsIcEE8setstateESt12_Ios_Iostate
+_ZNSs6appendERKSs
+__cxa_end_cleanup
+_ZNSt8ios_base4InitD1Ev
+_ZNSs6appendEPKc
+_ZNSo5flushEv
+pthread_mutexattr_init
+_ZNSt9basic_iosIcSt11char_traitsIcEEC2Ev
+_ZNSbIwSt11char_traitsIwESaIwEED1Ev
+_ZNSs5clearEv
+_ZNSolsEPFRSoS_E
+_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base
+__aeabi_uldivmod
+_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSs14_M_replace_auxEjjjc
+__cxa_end_catch
+__cxa_guard_acquire
+_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
+_ZNSoC2Ev
+_ZNSo5tellpEv
+_ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+_ZNSolsEPFRSt8ios_baseS0_E
+_ZTVSt14basic_ofstreamIcSt11char_traitsIcEE
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZNSs9push_backEc
+_ZNSs7_M_leakEv
+_ZNSt15basic_streambufIcSt11char_traitsIcEED2Ev
+_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+_ZNSt8ios_base4InitC1Ev
+_ZNSs6appendEjc
+_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EPKS3_RKS6_
+_ZNKSs13find_first_ofEPKcjj
+_ZTISt13runtime_error
+_ZNKSs12find_last_ofEPKcjj
+_ZNSo9_M_insertIxEERSoT_
+__dynamic_cast
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
+_ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
+_ZSt4cout
+__aeabi_idivmod
+_ZNSt9exceptionD2Ev
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+_ZNSs6insertEjPKcj
+_ZNSt14basic_ifstreamIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+_ZNSs6assignEPKc
+_ZNKSs17find_first_not_ofEPKcjj
+_ZNSs6assignERKSs
+pthread_key_delete
+_ZNSo5seekpExSt12_Ios_Seekdir
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i
+_ZNKSs16find_last_not_ofEPKcjj
+_ZNSo9_M_insertImEERSoT_
+_ZNSo9_M_insertIyEERSoT_
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEEC1ERKSsSt13_Ios_Openmode
+_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev
+_ZNSolsEi
+_ZNSirsERi
+_ZNSt14basic_ofstreamIcSt11char_traitsIcEEC1Ev
+__cxa_rethrow
+_ZNSt13basic_fstreamIcSt11char_traitsIcEE5closeEv
+__aeabi_idiv
+_ZNSt9basic_iosIcSt11char_traitsIcEED2Ev
+_ZNSt15_List_node_base8transferEPS_S0_
+_ZNSsC1ERKSs
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZNKSs4findEcj
+_ZNSs6assignEPKcj
+_ZSt9terminatev
+_ZNSo9_M_insertIPKvEERSoT_
+_ZNKSbIwSt11char_traitsIwESaIwEE5rfindEwj
+_ZNSs9_M_mutateEjjj
+_ZNSt13basic_fstreamIcSt11char_traitsIcEEC1Ev
+pthread_join
+libm.so.2
+__aeabi_d2lz
+__aeabi_ldivmod
+libc.so.3
+unsetenv
+ConnectAttach_r
+_init_array
+pthread_attr_destroy
+name_detach
+shm_open
+pthread_setname_np
+_preinit_array
+pthread_cancel
+MsgSend_r
+sem_destroy
+sem_wait
+sem_post
+ftruncate
+name_open
+gmtime_r
+MsgSendPulse
+pthread_getschedparam
+MsgError
+pthread_setschedparam
+sem_init
+sem_close
+sched_get_priority_max
+sched_get_priority_min
+sem_trywait
+name_close
+strtoull
+_init_libc
+localtime
+SchedCtl
+MsgReplyv
+MsgRead_r
+_fini_array
+sem_timedwait_monotonic
+_cpupage_ptr
+name_attach
+strerror_r
+MsgReceive
+sem_open
+localtime_r
+pthread_mutex_destroy
+pthread_mutex_trylock
+closedir
+MsgReply
+clock_nanosleep
+__slog_mux
+__slog_once
+__stackavail
+pthread_atfork
+__exidx_start
+__exidx_end
+__data_start
+__bss_start
+__bss_start__
+__bss_end__
+_ZTVN3tsd13communication5event17TsdTemplateEvent2ISsSsEE
+_ZTVN3tsd6common7logging12ScopedLoggerE
+_ZTVZN3tsd6common6system8OnceInit4initIPNS0_3ipc4impl11ProxyThreadEEEvRT_PFS8_vEE10MyRunnable
+_ZN3tsd6common6errors10FatalErrorD1Ev
+_ZTVN3tsd6common7logging28LogHighlightPatternConverterE
+_ZTVN3tsd6common7logging9LogWriterE
+_ZTVN3tsd6common3ipc4impl7ArbiterE
+_ZTVN3tsd13communication6client13TcpSendThreadE
+_ZTVN3tsd6common7logging16PatternLogLayoutE
+_ZTVN3tsd13communication19CommunicationClientE
+_ZTVN3tsd6common7logging20LoggingManagerHelperE
+_ZTVN3tsd6common7logging18PatternAbbreviatorE
+_ZTVN3tsd6common7logging21MaxElementAbbreviatorE
+_ZTVN3tsd6common7logging9LogLayoutE
+_ZTVN3tsd13communication6client13TcpConnectionE
+_ZTVN3tsd6common7logging19LogSimpleDateFormatE
+_ZTVN3tsd13communication15IComClientQueueE
+_ZTVN3tsd13communication11IComReceiveE
+_ZTVN3tsd6common7logging26LogMessagePatternConverterE
+_ZN3tsd6common6config13ConfigManager19createConfigManagerEv
+_ZN3tsd6common6system15ThreadMapHelperD1Ev
+_ZTVN3tsd6common3ipc5posix15SocketOperation7ConnectE
+_ZTVZN3tsd6common6system8OnceInit4initIPNS0_6config13ConfigManagerEEEvRT_PFS7_vEE10MyRunnable
+_ZTVN3tsd6common7logging11MinuteTokenE
+_ZTVN3tsd6common8dispatch10SerializerINS_13communication5event8TsdEventEEE
+_ZTVN3tsd6common7logging10MonthTokenE
+_ZTVN3tsd6common5units8DateTimeE
+_ZN3tsd6common6config13ConfigManager10m_instanceE
+_ZTVN3tsd6common7logging15DayInMonthTokenE
+_ZTIN3tsd6common6errors16ConnectExceptionE
+_ZTVN3tsd6common7logging10LogBackEndE
+_ZTVN3tsd6common7logging18LogNameAbbreviatorE
+_ZTVN3tsd6common7logging22LogAppPatternConverterE
+_ZTVN3tsd6common3ipc5posix21ExtSharedMemoryServerE
+_ZTVN3tsd6common3ipc6ObjectE
+_ZTVN3tsd6common3ipc4impl12ServerObjectE
+_ZTVN3tsd6common3ipc4impl12ProxyRequestE
+_ZN3tsd13communication20ICommunicationClient12sm_pInstanceE
+_ZTVN3tsd6common7logging11SecondTokenE
+_ZTVN3tsd6common3ipc4impl23MultiSharedMemoryServerE
+_ZTVN3tsd6common7logging23LogDatePatternConverterE
+_ZTVN3tsd6common5props9CloneableINS0_6errors13BaseExceptionEEE
+_ZTVN3tsd13communication5event8TsdEventE
+_ZTVN3tsd6common7logging6LoggerE
+_ZTVN3tsd6common8dispatch21NoSuchObjectExceptionE
+_ZTVN3tsd6common3ipc5posix13SelectArbiterE
+_ZTVN3tsd6common7logging9HourTokenE
+_ZN3tsd6common6errors16ConnectExceptionD1Ev
+_ZTVN3tsd6common7logging17LogBackEndFactoryE
+_ZTVN3tsd6common3ipc8software19SoftwareTimerThreadE
+_ZTVN3tsd13communication20ICommunicationClientE
+_ZTVN3tsd6common7logging11SlogBackEndE
+_ZTVN3tsd6common3ipc8software17SoftwareSemaphoreE
+_ZTVN3tsd6common3ipc8software13SoftwareTimerE
+_ZTVN3tsd6common7logging17MilitaryHourTokenE
+_ZTVN3tsd6common7logging16WeekInMonthTokenE
+_ZTVN3tsd13communication18TsdEventSerializerE
+_ZN3tsd6common6system5MutexD1Ev
+_ZSt3hexRSt8ios_base
+_ZTVN3tsd6common7logging14NOPAbbreviatorE
+_ZTVN3tsd6common7logging12PatternTokenE
+_ZTVN3tsd7mibstd211persistence6client10PersClientE
+_ZTVN3tsd13communication5event17TsdTemplateEvent1INS_7mibstd27logging6common19RpcLogConfigurationEEE
+_ZTVN3tsd6common7logging9YearTokenE
+_ZN3tsd13communication19CommunicationClient10s_InstanceE
+_ZTVN3tsd6common8dispatch21ITransmissionCallbackE
+_ZTVN3tsd6common3ipc3qnx13QnxSendServerE
+_ZTVN3tsd6common6errors13BaseExceptionE
+_ZTVN3tsd6common3ipc4impl11ProxyThreadE
+_ZN3tsd6common8dispatch21NoSuchObjectExceptionD1Ev
+_ZTVN3tsd6common7logging31LogRelativeTimePatternConverterE
+_ZTVN3tsd6common6system15ThreadMapHelperE
+_ZTIN3tsd13communication5event8TsdEventE
+_ZN3tsd6common6errors15SystemExceptionD1Ev
+_ZTVN3tsd6common7logging26LogLiteralPatternConverterE
+_ZTVN3tsd6common5utils10RefCountedE
+_ZTVN3tsd6common3ipc5posix18SharedMemoryServerE
+_ZN3tsd6common7logging20LoggingManagerHelperD1Ev
+_ZTVN3tsd13communication6client13QnxConnectionE
+_ZTIN3tsd6common8dispatch21NoSuchObjectExceptionE
+_ZTVN3tsd13communication5event17TsdTemplateEvent7IiiiiiiiEE
+_ZTVN3tsd6common7logging14LoggingManagerE
+_ZN3tsd13communication19CommunicationClient13s_InstanceMuxE
+_ZTVN3tsd7mibstd26system5tools4emmc15EmmcRefreshmentE
+_ZTVN3tsd13communication14ComClientQueueE
+_ZTVN3tsd6common5units10CommonUnitIxNS1_13eDurationUnitELS3_1000ELS3_1000ELxn2000000000000ELx2000000000000ELb0EEE
+_ZTVN3tsd6common6errors16ConnectExceptionE
+_ZTVN3tsd6common3ipc4impl10NameServerE
+_ZTVN3tsd6common8dispatch10TimerEventE
+_ZTIN3tsd6common6errors13BaseExceptionE
+_ZTVN3tsd6common7logging17ChannelLogBackEndE
+_ZTVN3tsd6common7logging11BurstFilterE
+_ZTVN3tsd13communication5event17TsdTemplateEvent2ISsSt6vectorIjSaIjEEEE
+_ZTVN3tsd6common3ipc4impl15LocalNameServerE
+_ZTVN3tsd13communication6client13TcpRecvThreadE
+_ZTIN3tsd6common6errors15SystemExceptionE
+_ZTVN3tsd7mibstd27logging6common23LogSrvLogBackEndFactoryE
+_ZTIN3tsd6common6errors24InvalidArgumentExceptionE
+_ZTVN3tsd6common3ipc5posix27MultiplexSharedMemoryClientE
+_ZTVN3tsd6common7logging12LiteralTokenE
+_ZTVN3tsd6common6system8RunnableE
+_ZN3tsd6common6system2os6thread18createGlobalTlsKeyEv
+_ZTVN3tsd6common7logging35IniFileBasedLogManagerConfigurationE
+arbiterDestructor
+_ZTVN3tsd7mibstd27logging6common16LogSrvLogBackEndE
+_ZTVN3tsd6common6errors15SystemExceptionE
+_ZTVN3tsd6common3ipc4impl6ServerE
+_ZTVN3tsd6common3ipc4impl18HandShakeSHMServerE
+_ZTVN3tsd7mibstd27logging6common19RpcLogConfigurationE
+_ZTVN3tsd6common3ipc4impl18SharedMemoryServerE
+_ZN3tsd13communication18TsdEventSerializer8m_sMutexE
+_ZN3tsd6common6system6Thread9startImplEPS2_
+_ZTVN3tsd6common7logging24LogLevelPatternConverterE
+_ZTVN3tsd6common7logging15AsyncLogBackEndE
+_ZN3tsd6common6errors24InvalidArgumentExceptionD1Ev
+_ZTVN3tsd6common7logging23LogManagerConfigurationE
+_ZTVN3tsd6common8dispatch21BaseAsyncTransmissionE
+_ZTVN3tsd6common3ipc5posix15SocketOperationE
+_ZTVN3tsd6common7logging25LogThreadPatternConverterE
+_ZTIN3tsd13communication5event17TsdTemplateEvent1INS_7mibstd27logging6common19RpcLogConfigurationEEE
+_ZTVN3tsd6common7logging25LogLoggerPatternConverterE
+_ZTIN3tsd13communication5event17TsdTemplateEvent2ISsSsEE
+_ZTVN3tsd6common7logging19LogPatternConverterE
+_ZTVN3tsd6common3ipc5posix12SocketServerE
+_ZTVN3tsd6common6errors10FatalErrorE
+_ZTVN3tsd6common6errors24InvalidArgumentExceptionE
+_ZTVN3tsd6common3ipc5posix27MultiplexSharedMemoryCommonE
+_ZTVN3tsd6common7logging19StreamRefLogBackEndE
+_ZTIN3tsd6common7logging10LogBackEndE
+_ZTVZN3tsd6common6system8OnceInit4initIPNS0_3ipc8software19SoftwareTimerThreadEEEvRT_PFS8_vEE10MyRunnable
+_ZTVN3tsd6common7logging16MillisecondTokenE
+_ZTVN3tsd13communication6client10ConnectionE
+_ZN3tsd13communication18TsdEventSerializer12m_spInstanceE
+_ZTVN3tsd6common8dispatch14ITimerListenerE
+_ZTVN3tsd6common7logging19FileBasedLogBackEndE
+_ZSt3decRSt8ios_base
+_ZTVN3tsd7mibstd27logging6common15LogConfigHelperE
+_ZTVN3tsd13communication5event17TsdTemplateEvent1INS_6common7logging8LogEventEEE
+_ZTIN3tsd6common6errors10FatalErrorE
+_ZTVN3tsd6common6system6ThreadE
+_ZTVN3tsd6common7logging21DayOfWeekInMonthTokenE
+_ZN3tsd6common3ipc4impl15LocalNameServerD1Ev
+_ZTVN3tsd13communication5event17TsdTemplateEvent1ISsEE
+_ZTIN3tsd6common7logging15AsyncLogBackEndE
+libsocket.so.2
+tsd.mibstd2.system.tools.emmc
+eMMC application: no ComClient object available
+TOOLSEMMCIMX6A
+eMMC application crashed: '
+N3tsd6common8dispatch14ITimerListenerE
+N3tsd13communication11IComReceiveE
+N3tsd13communication16IEventSerializerE
+N3tsd13communication5event17TsdTemplateEvent7IiiiiiiiEE
+N3tsd7mibstd26system5tools4emmc15EmmcRefreshmentE
+eMMCRefreshment: configure PersClient done
+eMMCRefreshment: configure PersClient returned false
+eMMCRefreshment: configure PersClient did not answer
+eMMCRefreshment: resume@
+eMMCRefreshment: no offset stored, yet
+eMMCRefreshment: set to default value=0
+eMMCRefreshment: retrieving offset returned 
+eMMCRefreshment: opening device did not succeed 
+eMMCRefreshment: SEEK_END did not succeed: 
+eMMCRefreshment: eMMC Size 
+eMMCRefreshment: burst: 
+eMMCRefreshment: store offset done
+eMMCRefreshment: storing offset returned 
+eMMCRefreshment: could not seek to pos 
+eMMCRefreshment: bytes read lower than expected 
+eMMCRefreshment: cycle finished 
+eMMCRefreshment: no eMMC size, skip reading
+eMMCRefreshment: opening device did not succeed
+eMMCRefreshment: receiveCarcomSystemEvent received:
+eMMCRefreshment: CarcomCommon Mode changed from 
+eMMCRefreshment: an OFF mode is activated
+eMMCRefreshment: mode is normal (again)
+eMMCRefreshment: received event: 
+eMMCRefreshment: deserialize
+eMMCRefreshment: deserialize - unmapped event 
+/dev/hd0
+m_theWriter.get() != NULL
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/logging/Logger.cpp
+ - catching 
+ - entry
+N3tsd6common7logging6LoggerE
+N3tsd6common7logging12ScopedLoggerE
+N3tsd6common5units10CommonUnitIxNS1_13eDurationUnitELS3_1000ELS3_1000ELxn2000000000000ELx2000000000000ELb0EEE
+N3tsd6common6errors10FatalErrorE
+N3tsd6common7logging20LoggingManagerHelperE
+N3tsd6common5props9CloneableINS0_6errors13BaseExceptionEEE
+getLogger
+TSD_LOGCHANNEL
+theLoggingManager != NULL
+LoggingManagerThread
+logchannel
+Exception during join of logger thread: 
+stdout Info
+DefaultLogger
+/tsd/etc/system/logging/logging.ini
+Exception during logger creation: 
+Unkonwn exception during logger creation
+tsd.common.logging
+/tsd/var/logging/logging.ini
+theLogger.get() != NULL
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/logging/LoggingManager.cpp
+N3tsd6common7logging14LoggingManagerE
+ ---- No messages since 
+N3tsd6common7logging10LogBackEndE
+N3tsd6common7logging9LogWriterE
+N3tsd6common3ipc6ObjectE
+vector::_M_range_insert
+index <= vec.size()
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/rpcbuffer.cpp
+other.getCurrentData()
+vector_replace_and_append
+callAsync
+N3tsd6common3ipc8software17SoftwareSemaphoreE
+s.isFree()
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/software/softwaresemaphore.cpp
+r.isFree()
+ZN3tsd6common6system8OnceInit4initIPNS0_3ipc8software19SoftwareTimerThreadEEEvRT_PFS8_vEE10MyRunnable
+N3tsd6common3ipc8software13SoftwareTimerE
+tsd.common.ipc.Timer
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/software/softwaretimer.cpp
+N3tsd6common3ipc8software19SoftwareTimerThreadE
+callAsync
+N3tsd6common3ipc4impl7ArbiterE
+N3tsd6common3ipc5posix13SelectArbiterE
+partialWaitPipe
+fd < FD_SETSIZE
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/posix/selectarbiter.cpp
+Fatal: SelectArbiter->pipe
+max < FD_SETSIZE
+sel::Arbiter->select
+N12_GLOBAL__N_113ConnectServerE
+ListenServer@
+SocketServer::kickstartTransmitter->write
+nfds < FD_SETSIZE
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/posix/socketserver.cpp
+SocketServer::operate->write
+SocketServer::operate->read
+SocketServer::operate->select
+ConnectServer: cannot connect (still trying...)
+ConnectServer@
+ListenServer->listen
+ListenServer::run->accept
+ListenServer: creating new worker thread
+ListenWorker@
+ListenServer: re-using existing worker thread
+N3tsd6common3ipc5posix12SocketServerE
+N3tsd6common3ipc4impl18SharedMemoryServerE
+N12_GLOBAL__N_113ConnectServerE
+N3tsd6common3ipc5posix18SharedMemoryServerE
+ShmConnectServer->ftruncate
+ShmConnectServer sem_open(/
+ShmConnectServer->shm_open: /
+tsd.common.ipc.posix.ShmListen@
+tsd.common.ipc.posix.ShmConnect@
+QnxSendServer::kickstartTransmitter->MsgSendv: %s
+QnxSendServer::run->MsgSend_r: %s
+tsd.common.ipc.
+QnxSendServer::init->name_open
+QnxSendServer::init->init
+QnxSendServer::init: OOM
+tsd.common.ipc.QnxSendServer@
+N3tsd6common3ipc3qnx13QnxSendServerE
+N3tsd6common3ipc4impl18HandShakeSHMServerE
+N3tsd6common3ipc5posix12_GLOBAL__N_113ConnectServerE
+ExtShmListenServer->ftruncate
+ExtShmListenServer->mmap
+ExtShmListenServer->initListen (%s) failed: maybe size to small or wrong protocol
+ExtShmListenServer->sem_open(/
+ExtShmListenServer->shm_open
+ExtShmConnectServer->lseek
+ExtShmConnectServer->mmap
+ExtShmConnectServer->initConnect (%s) failed: maybe size to small or wrong protocol
+ExtShmConnectServer->sem_open(/
+ExtShmConnectServer->shm_open
+extshmserver: fatal error: clock_gettime
+extshmserver:waitForSem weird semaphore: %p owner: 0x%x should be 0x%x count: %d
+extshmserver:waitForSem strerror unkown error number: %d, sem: %p timeval is sec: %u nsec: %ld
+extshmserver:waitForSem strerror buffer for error: %d sem: %p timeval is sec: %u nsec: %ld
+extshmserver:waitForSem strerror error (%d), supplied error was: %d sem: %p timeval is sec: %u nsec: %ld
+extshmserver:waitForSem error(%d) %s sem: %p timeval is sec: %u nsec: %ld
+N3tsd6common3ipc5posix21ExtSharedMemoryServerE
+N3tsd6common3ipc5posix27MultiplexSharedMemoryClientE
+prepareSlot
+waitConnectState
+waitDataExchangeForRemote
+createWorker
+!"SharedMemoryCommon::createWorker should never called"
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/posix/multiplexsharedmemoryserver.cpp
+ShmListenServer::run->shm_open
+ShmListenServer::run->ftruncate
+ShmListenServer::run->mmap
+ShmListenServer::run->sem_open
+ShmListenServer::run Shared Memory Segment to small
+ShmConnectServer::run->shm_open
+ShmConnectServer::run->mmap
+shm && shm != MAP_FAILED
+!m_ConnectWakeThem && !m_ConnectWakeMe
+ShmConnectServer::run->sem_open
+SharedMemoryConnectServer: Shared Memory Segment don't match
+m_ConnectWakeThem
+m_DataWakeThem
+ts.tv_nsec >= 0
+ts.tv_nsec < 1000000000
+err: %s %p posixerr: %s
+waitConnectState: 
+waitDataExchange: 
+!m_DataWakeThem && !m_DataWakeMe
+ShmConnectServer::prepareSlot->sem_open
+waitForSem
+disableRemoteConnectState
+wakeConnectState
+createMultiplexSharedMemoryConnectServer
+wakeDataExchangeRemote
+N3tsd6common3ipc5posix27MultiplexSharedMemoryCommonE
+mapClientMemory
+N3tsd6common8dispatch21ITransmissionCallbackE
+N3tsd6common8dispatch10TimerEventE
+*** ASSERT_FATAL ***
+Unknown lock mode!
+MutexGuard
+ret == true
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/system/MutexGuard.cpp
+N3tsd6common5props10UncopyableE
+N3tsd6common6system15ThreadMapHelperE
+ThreadMap object is invalid!
+Interruptible already registered!
+Thread may be executed only once!
+!m_running
+Thread: thread_id = 
+Warning: destroying thread object of running thread('%s')!
+MainThread
+== ThreadMap == 
+... is empty
+ name = 
+N3tsd6common6system6ThreadE
+N3tsd6common6system8RunnableE
+getTickCounter: clock_gettime failed with (%d), %s args: %p
+getTickCounter: gettimeofday failed with (%d), %s args: %p
+getSystemTimeValue: gettimeofday failed with (%d), %s args: %p
+N3tsd6common6errors15SystemExceptionE
+Failed to create mutex: 
+Failed to destroy mutex: 
+Failed to aquire mutex: 
+Failed to release mutex: 
+posix_sem: %s semaphore: %p owner: 0x%x should be 0x%x count: %d
+posix_sem: %s err: %d str: %s args: sem: %p%s
+sem_post
+Posting semaphore failed
+sem_try_down
+Non-blocking wait for semaphore failed
+sem_down_ms
+Timed wait for semaphore failed
+tv.sec: %lu tv.nsec: %lu
+sem_downt
+Waiting for semaphore failed
+sem_destroy
+Destroying semaphore failed
+sem_init
+Initializing semaphore failed
+printInfos
+pthread_setspecific failed: %s
+pthread_key_delete failed: %s
+pthread_key_create failed: %s
+pthread_once failed: %s
+SCHED_OTHER
+SCHED_FIFO
+SCHED_RR
+SCHED_UNKNOWN
+Cannot join thread!
+Cannot halt thread!
+/proc/self/as
+Cannot access thread priority!
+ret == 0
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/system/posix/POSIXThread.cpp
+Cannot modify thread priority, new prio = 
+Cannot start thread!
+Sleep failed: 
+ZN3tsd6common6system8OnceInit4initIPNS0_6config13ConfigManagerEEEvRT_PFS7_vEE10MyRunnable
+TSD_COMMON_CONFIG
+== tsd::common::config::ConfigManager ==
+cfgfile: 
+.priority
+defaultpriority
+.partition
+.warntime
+.exittime
+.stacksize
+Caused by: 
+no stacktrace
+N3tsd6common6errors13BaseExceptionE
+N3tsd6common7logging16PatternLogLayoutE
+%d{HH:mm:ss.SSS}	%7p{[%]}	[%a{%.}%c]	%m
+N3tsd6common7logging17ChannelLogBackEndE
+N3tsd6common7logging9LogLayoutE
+N3tsd6common7logging11BurstFilterE
+N3tsd6common7logging14AbstractFilterE
+N3tsd6common7logging6FilterE
+Discarded 
+ messages due to high system load.
+N3tsd6common7logging19StreamRefLogBackEndE
+.MaxFileSize
+.BurstFilter
+.Pattern
+.PrintHeartBeat
+.PrintTimeStamp
+.HeartBeatDuration
+N3tsd6common7logging35IniFileBasedLogManagerConfigurationE
+N3tsd6common7logging26LogMessagePatternConverterE
+basic_string::insert
+        
+N3tsd6common7logging23LogDatePatternConverterE
+HH:mm:ss.SSS
+N3tsd6common7logging24LogLevelPatternConverterE
+N3tsd6common7logging26LogLiteralPatternConverterE
+N3tsd6common7logging22LogAppPatternConverterE
+N3tsd6common7logging19LogPatternConverterE
+N3tsd6common6errors24InvalidArgumentExceptionE
+N3tsd6common5units8DateTimeE
+N3tsd6common7logging19FileBasedLogBackEndE
+Closing Logfile
+unknown error
+Could not create and/or open file: 
+ Reason: > 
+AsyncLogBackEnd
+m_backEnd.get() != NULL
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/logging/AsyncLogBackEnd.cpp
+ messages due to a full event buffer including: 
+N3tsd6common7logging15AsyncLogBackEndE
+[%t] [%a.%c]	%m
+TSD_LOGDOMAIN
+N3tsd6common7logging11SlogBackEndE
+N3tsd6common3ipc4impl10NameServerE
+registerNameServer
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/impl/nameserver.cpp
+ZN3tsd6common6system8OnceInit4initIPNS0_3ipc4impl11ProxyThreadEEEvRT_PFS8_vEE10MyRunnable
+N3tsd6common3ipc4impl12ProxyRequestE
+N3tsd6common5utils10RefCountedE
+addObject
+replyAsync
+removeObject
+receiveAsync
+N3tsd6common3ipc4impl6ServerE
+N3tsd6common3ipc4impl11ProxyThreadE
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/utils/intrusivelist.hpp
+!(elem->*OFFSET).isInList()
+(result->*OFFSET).isInList()
+s.m_Prev != 0
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/impl/server.cpp
+s.m_Prev == 0
+s.m_Next == 0
+s.m_Server == this
+hasValidData(s)
+hasValidData(r)
+hasValidData(t)
+ReplyAsync on request which is not ours
+&getArbiterFromOurRequest(r) == &tsd::common::ipc::impl::getThisThreadArbiter()
+Cancel on request which is not ours
+&getArbiterFromOurRequest(t) == &getThisThreadArbiter()
+vector::_M_insert_aux
+vector::_M_fill_insert
+!(p->m_Transfers[0].m_Options & Transfer::fNoAck)
+p->m_Kind == ProxyRequest::kReceive
+p->m_Transfers[0].m_Status != Transfer::WantReply
+p->m_Transfers[0].m_Status == p->m_RcvTmp.m_Status
+p->m_Transfers[0].m_Data == p->m_RcvTmp.m_Data
+p->m_Transfers[0].m_Transferred == p->m_RcvTmp.m_Transferred
+p->m_Transfers[0].m_Size == p->m_RcvTmp.m_Size
+p->m_Transfers[0].m_Status == Transfer::WantReply
+Unknown Reply Request
+m_SendingPacket->isSent()
+packetSize > 0
+x->m_Kind == ProxyRequest::kReceive
+x->m_Transfers[0].m_Status == x->m_RcvTmp.m_Status
+x->m_Transfers[0].m_Data == x->m_RcvTmp.m_Data
+x->m_Transfers[0].m_Transferred == x->m_RcvTmp.m_Transferred
+x->m_Transfers[0].m_Size == x->m_RcvTmp.m_Size
+x->m_Transfers[0].m_Status == Transfer::WantReply
+!x->isInRequestReplyList()
+p->m_AttachedObject == p->m_Transfers[0].m_AttachedObject
+!x->m_Data
+x->m_ActiveTransfer
+ProxyThread: invalid request? can't happen
+t == &p->m_Transfers[0] || t == &p->m_Transfers[1] || t == &p->m_RcvTmp
+tsd.common.ipc.ProxyThread@
+One+Only
+callAsync
+sendAsync
+processNewRequests
+N3tsd6common3ipc4impl12ServerObjectE
+getRequestPacket
+buildReplyPacket
+buildRequestPacket
+processPacket
+releaseRequest
+(m_HeaderSent + amount) <= m_HeaderSize
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/impl/serverpacket.cpp
+(m_ObjectSent + amount) <= m_ObjectSize
+(m_PayloadSent + amount) <= m_PayloadSize
+consumeData
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/impl/handshakeshmserver.cpp
+m_AwakeCounter && m_RemoteAwakeCounter
+connectRemote
+connectHandshake
+operateClient
+m_Con != NULL
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/impl/multishmserver.cpp
+m_Con->m_Sv.m_State == SERVER_START_SEND_TRANSFER
+!(state == SERVER_CLIENT_FINISHED && new_state == SERVER_START_SEND_TRANSFER)
+slot > 0
+!m_SlotCount
+shmmpx:%s client: %s server full
+m_AliveCounter && m_RemoteAliveCounter
+m_ConSlot
+shmmpx:%s shared memory segment in use
+shmmpx:%s Connection timeout
+m_Parent != NULL
+m_Slot && m_BlockAddr && m_BlockSize
+Error: MultiSharedMemoryServer::operate_client
+N3tsd6common3ipc4impl23MultiSharedMemoryServerE
+dataExchange
+N3tsd6common3ipc5posix15SocketOperationE
+N3tsd6common3ipc5posix15SocketOperation7ConnectE
+N3tsd6common3ipc18ThreadAffineObjectE
+asynchronousReceive
+N3tsd6common8dispatch21BaseAsyncTransmissionE
+&result == m_UserTransfer
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/dispatch/baseasynctransmission.cpp
+!m_UserObject
+m_UserTransfer != 0
+transmissionSignaled
+N3tsd6common8dispatch21NoSuchObjectExceptionE
+No IPC object given
+No such IPC object: 
+N3tsd6common7logging23LogManagerConfigurationE
+N3tsd6common7logging31LogRelativeTimePatternConverterE
+N3tsd6common7logging9YearTokenE
+N3tsd6common7logging12NumericTokenE
+N3tsd6common7logging12PatternTokenE
+N3tsd6common7logging10MonthTokenE
+N3tsd6common7logging16WeekInMonthTokenE
+N3tsd6common7logging15DayInMonthTokenE
+N3tsd6common7logging21DayOfWeekInMonthTokenE
+N3tsd6common7logging17MilitaryHourTokenE
+N3tsd6common7logging9HourTokenE
+N3tsd6common7logging11MinuteTokenE
+N3tsd6common7logging11SecondTokenE
+N3tsd6common7logging16MillisecondTokenE
+N3tsd6common7logging12LiteralTokenE
+token != NULL
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/logging/pattern/LogSimpleDateFormat.cpp
+addToken
+N3tsd6common7logging19LogSimpleDateFormatE
+N3tsd6common7logging28LogHighlightPatternConverterE
+N3tsd6common7logging25LogThreadPatternConverterE
+N3tsd6common7logging25LogLoggerPatternConverterE
+N3tsd6common7logging14NOPAbbreviatorE
+N3tsd6common7logging21MaxElementAbbreviatorE
+N3tsd6common7logging18PatternAbbreviatorE
+fragments must have at least one element
+N3tsd6common7logging18LogNameAbbreviatorE
+Thread affinity constraint violated.
+Object bound to #%X, accessed from #%X
+N3tsd6common3ipc4impl15LocalNameServerE
+findCallId
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.common/src/tsd/common/ipc/impl/proxyrequest.cpp
+N3tsd13communication6client16IReceiveCallbackE
+N3tsd13communication5event17TsdTemplateEvent2ISsSt6vectorIjSaIjEEEE
+N3tsd13communication5event17TsdTemplateEvent1ISsEE
+N3tsd13communication14ComClientQueueE
+N3tsd13communication19CommunicationClientE
+vector::reserve
+qnx:root
+[41mCommunicationClient watchdog: queue: '
+' event: 0x
+ entered: 
+ started: 
+ deadline: 
+tsd.communication.queue@
+tsd.communication.comclient
+TSD_COMCLIENT_WATCHDOG
+CommunicationClient disconnected! Communication dead...
+Different timeouts specified for queue '
+Unhandled admin event: 0x
+ComClientQueue::notify: no observer found for EventID 
+) on queue '
+ComClientQueue::notify: no deserializer found for EventID 
+N3tsd6common6errors16ConnectExceptionE
+N3tsd13communication6client10ConnectionE
+basic_string::substr
+qnx://local/tsd.communication.commgr
+Neither local nor global QNX protocol
+Invalid protocol: 
+N3tsd13communication20ICommunicationClientE
+N3tsd13communication15IComClientQueueE
+N3tsd6common8dispatch10SerializerINS_13communication5event8TsdEventEEE
+tsd.communication.serializer
+Serializer already registered for event 0x
+No deserializer found for event 0x
+N3tsd13communication18TsdEventSerializerE
+N3tsd13communication6client13TcpConnectionE
+N3tsd13communication6client13TcpSendThreadE
+tsd.communication.comclient.tcp.send
+tsd.communication.comclient.tcp.recv
+Out of memory
+TcpRecvThread read failed: 
+TcpSendThread write failed: 
+socket failed
+Invalid host address: 
+connect failed: 
+N3tsd13communication6client13TcpRecvThreadE
+tsd.communication.comclient.qnx
+Could not connect to QNX ComMgr
+InitReq failed
+QnxConnection::run(): MsgSend failed 
+N3tsd13communication6client13QnxConnectionE
+allocBuffer
+ret != 0
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.communication.comclient/src/tsd/communication/Buffer.cpp
+N3tsd13communication5event8TsdEventE
+N3tsd13communication5event17TsdTemplateEvent2ISsSsEE
+N3tsd13communication5event17TsdTemplateEvent1INS_7mibstd27logging6common19RpcLogConfigurationEEE
+logconfig
+Invalid event object @ LogSrv::tLogSrvConfigChangedEvent
+new logging configuration file: 
+Invalid event object @ LogSrv::tLogSrvConfigEvent
+N3tsd7mibstd27logging6common15LogConfigHelperE
+N3tsd7mibstd27logging6common19RpcLogConfigurationE
+N3tsd6common7logging17LogBackEndFactoryE
+N3tsd7mibstd27logging6common23LogSrvLogBackEndFactoryE
+N3tsd13communication5event17TsdTemplateEvent1INS_6common7logging8LogEventEEE
+N3tsd7mibstd27logging6common16LogSrvLogBackEndE
+vector<bool>::_M_insert_aux
+tsd.persmaster.tx
+m_SndCon
+/opt/tsd.jenkins.workspace/workspace/STAGE1_release_eu_emmcrefresh/src/__/tsd.mibstd2.persistence.client/src/tsd/mibstd2/persistence/client/PersClient.cpp
+PersClientTransmitter
+tsd.mibstd2.persistence.client
+store: NS=
+store query already in progress
+load: NS=
+load query already in progress
+configure 
+vector<bool>::_M_fill_insert
+configure query already in progress
+Pending: 
+ & queue: 
+Transmitter new request len: 
+AsyncReply load, data length=
+AsyncReply store with status=
+unknown IPC reply type 
+PersClient call failed with Transfer::m_Status: 
+Async request timed out
+Transmitter next pending request len: 
+ with timeout 
+syncStore: NS=
+syncStore reply len=
+syncStore request timed out
+syncLoad: NS=
+syncLoad reply len=
+syncLoad request timed out
+syncConfigure 
+syncConfigure request timed out
+N3tsd7mibstd211persistence6client10PersClientE
+/dev/slog
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+GCC: (GNU) 4.4.2
+2101.100.33.0tsd.mibstd2.system.tools.emmc-84900390acdeee514e008049b5015834.sym
+2243010)7
+55FSR	ee
+.shstrtab
+.note.gnu.build-id
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.ARM.extab
+.ARM.exidx
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.comment
+.ARM.attributes
+.tsdversion
+.gnu_debuglink
+.tsdjversion
+.tsdsignature

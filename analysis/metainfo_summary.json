@@ -1,0 +1,585 @@
+{
+  "common": {
+    "Release": "MST2_EU_VW_ZR_P0254T",
+    "MUVersion": "0254",
+    "Vendor": "TechniSat",
+    "MaxParallelDevices": "20",
+    "ExclusiveUpdate": "inic",
+    "TsdBuildNumber": "1",
+    "Variant": "17201",
+    "Variant2": "17202",
+    "Variant3": "17203",
+    "Variant4": "17204",
+    "Variant5": "17205",
+    "Variant6": "17206",
+    "Variant7": "17207",
+    "Variant8": "17224",
+    "Region": "Europe",
+    "Region2": "RoW",
+    "SkipFileCopyChecksum": "false",
+    "DelMmeBackups": "true",
+    "CheckAllUpdates": "false",
+    "CheckIfNotEqual": "false",
+    "MetafileChecksum": "93e1d4de4ea61800a3312f89da035747b6f7ce2d"
+  },
+  "device_count": 45,
+  "devices": {
+    "bluetooth": {
+      "module_count": 1,
+      "modules": [
+        "btfirmware"
+      ]
+    },
+    "cpu": {
+      "module_count": 97,
+      "modules": [
+        "animdata_EU_stdNavi_vw",
+        "asr_EU_stdNavi",
+        "audioservice",
+        "bapcar_stdZR",
+        "bluetooth",
+        "browser",
+        "common",
+        "config_EU_sec_vw",
+        "connectivitycommon",
+        "cpuboot_sec",
+        "cpubspfs",
+        "cpuimage_sec_stdNavi",
+        "cpuroot_sec",
+        "customerupdateinfos",
+        "debugtool_sec",
+        "displaymanager",
+        "dsp_dab0_stdZR",
+        "dsp_dab1_stdZR",
+        "emergency",
+        "emmcrefresh",
+        "esd_sec",
+        "exlap",
+        "exlapgateway",
+        "gps_EU_sec",
+        "hmizr_EU_stdNavi_stdZR_vw",
+        "i18n_EU",
+        "itr",
+        "j9",
+        "logging",
+        "media",
+        "messaging",
+        "mirrorlink_EU",
+        "misc",
+        "navbinimage_EU",
+        "navconfig_EU_vw",
+        "navimage",
+        "networkmgr_sec",
+        "nuanceres.common_EU_stdNavi",
+        "nuanceres.czc_EU_stdNavi",
+        "nuanceres.dun_EU_stdNavi",
+        "nuanceres.eng_EU_stdNavi",
+        "nuanceres.enu_EU_stdNavi",
+        "nuanceres.frc_EU_stdNavi",
+        "nuanceres.frf_EU_stdNavi",
+        "nuanceres.ged_EU_stdNavi",
+        "nuanceres.iti_EU_stdNavi",
+        "nuanceres.non_EU_stdNavi",
+        "nuanceres.plp_EU_stdNavi",
+        "nuanceres.ptb_EU_stdNavi",
+        "nuanceres.ptp_EU_stdNavi",
+        "nuanceres.rur_EU_stdNavi",
+        "nuanceres.spe_EU_stdNavi",
+        "nuanceres.spm_EU_stdNavi",
+        "nuanceres.sws_EU_stdNavi",
+        "nuanceres.trt_EU_stdNavi",
+        "onlineservices_EU_sec",
+        "openssl",
+        "organizer_EU_stdNavi",
+        "phone",
+        "picserver",
+        "pos_EU_sec",
+        "posconfig_EU",
+        "prednav",
+        "radioconfig_sec_vw",
+        "sal",
+        "salconfig_sec_stdNavi_stdZR_vw",
+        "sdscommon_EU_stdNavi",
+        "serviceapple_vw",
+        "serviceusb_sec",
+        "sqlite",
+        "stationdb_EU",
+        "stationdbapp",
+        "swap",
+        "swapkeys_sec_vw",
+        "swdownload_sec",
+        "testinterface_sec",
+        "tnr",
+        "tools",
+        "tts_EU_stdNavi_stdZR_vw",
+        "vocon3200res.cscz_EU_stdNavi",
+        "vocon3200res.dede_EU_stdNavi",
+        "vocon3200res.engb_EU_stdNavi",
+        "vocon3200res.enus_EU_stdNavi",
+        "vocon3200res.eses_EU_stdNavi",
+        "vocon3200res.esmx_EU_stdNavi",
+        "vocon3200res.frfr_EU_stdNavi",
+        "vocon3200res.itit_EU_stdNavi",
+        "vocon3200res.nlnl_EU_stdNavi",
+        "vocon3200res.plpl_EU_stdNavi",
+        "vocon3200res.ptbr_EU_stdNavi",
+        "vocon3200res.ptpt_EU_stdNavi",
+        "vocon3200res.ruru_EU_stdNavi",
+        "vocon3200res.svse_EU_stdNavi",
+        "vocon3200res.trtr_EU_stdNavi",
+        "wavefiles_vw",
+        "waveplayer",
+        "wirelessadapter_sec"
+      ]
+    },
+    "cpuplus": {
+      "module_count": 86,
+      "modules": [
+        "animdata_EU_stdPlus_vw",
+        "asr_EU_stdPlus",
+        "bapcar_stdZR",
+        "bluetooth",
+        "config_EU_sec_vw",
+        "connectivitycommon",
+        "cpuboot_sec",
+        "cpubspfs",
+        "cpuimage_sec_stdPlus",
+        "customerupdateinfos",
+        "debugtool_sec",
+        "dsp_dab0_stdZR",
+        "dsp_dab1_stdZR",
+        "emergency",
+        "emmcrefresh",
+        "esd_sec",
+        "exlap",
+        "exlapgateway",
+        "gps",
+        "hmizr_EU_stdPlus_stdZR_vw",
+        "i18n_EU",
+        "itr",
+        "j9",
+        "logging",
+        "media",
+        "messaging",
+        "mirrorlink_EU",
+        "misc",
+        "networkmgr_sec",
+        "nuanceres.common_EU_stdPlus",
+        "nuanceres.czc_EU_stdPlus",
+        "nuanceres.dun_EU_stdPlus",
+        "nuanceres.eng_EU_stdPlus",
+        "nuanceres.enu_EU_stdPlus",
+        "nuanceres.frc_EU_stdPlus",
+        "nuanceres.frf_EU_stdPlus",
+        "nuanceres.ged_EU_stdPlus",
+        "nuanceres.iti_EU_stdPlus",
+        "nuanceres.non_EU_stdPlus",
+        "nuanceres.plp_EU_stdPlus",
+        "nuanceres.ptb_EU_stdPlus",
+        "nuanceres.ptp_EU_stdPlus",
+        "nuanceres.rur_EU_stdPlus",
+        "nuanceres.spe_EU_stdPlus",
+        "nuanceres.spm_EU_stdPlus",
+        "nuanceres.sws_EU_stdPlus",
+        "nuanceres.trt_EU_stdPlus",
+        "openssl",
+        "organizer_EU",
+        "phone",
+        "picserver",
+        "radioconfig_sec_vw",
+        "sal",
+        "salconfig_sec_stdPlus_stdZR_vw",
+        "sdscommon_EU_stdPlus",
+        "serviceapple_vw",
+        "serviceusb_sec",
+        "sqlite",
+        "stationdb_EU",
+        "stationdbapp",
+        "swap",
+        "swapkeys_sec_vw",
+        "swdownload_sec",
+        "systemimage_hwr0_sec_stdPlus",
+        "testinterface_sec",
+        "tnr",
+        "tools",
+        "tts_EU_stdPlus_vw",
+        "vocon3200res.cscz_EU_stdPlus",
+        "vocon3200res.dede_EU_stdPlus",
+        "vocon3200res.engb_EU_stdPlus",
+        "vocon3200res.enus_EU_stdPlus",
+        "vocon3200res.eses_EU_stdPlus",
+        "vocon3200res.esmx_EU_stdPlus",
+        "vocon3200res.frfr_EU_stdPlus",
+        "vocon3200res.itit_EU_stdPlus",
+        "vocon3200res.nlnl_EU_stdPlus",
+        "vocon3200res.plpl_EU_stdPlus",
+        "vocon3200res.ptbr_EU_stdPlus",
+        "vocon3200res.ptpt_EU_stdPlus",
+        "vocon3200res.ruru_EU_stdPlus",
+        "vocon3200res.svse_EU_stdPlus",
+        "vocon3200res.trtr_EU_stdPlus",
+        "wavefiles_vw",
+        "waveplayer",
+        "wirelessadapter_sec"
+      ]
+    },
+    "inic": {
+      "module_count": 1,
+      "modules": [
+        "inicfirmware"
+      ]
+    },
+    "main": {
+      "module_count": 10,
+      "modules": [
+        "boottable",
+        "carcom_most0_sec_stdNavi_stdZR",
+        "carcom_most1_sec_stdNavi_stdZR",
+        "diagnosis_most0_sec_stdZR",
+        "diagnosis_most1_sec_stdZR",
+        "emergency_most0_stdZR",
+        "emergency_most1_stdZR",
+        "mainboot_sec",
+        "mainimage_EU_dab0_hwr0_sec_stdNavi_stdZR_vw",
+        "mainimage_EU_dab1_hwr0_sec_stdNavi_stdZR_vw"
+      ]
+    },
+    "mainplus": {
+      "module_count": 10,
+      "modules": [
+        "boottable",
+        "carcom_most0_sec_stdPlus_stdZR",
+        "carcom_most1_sec_stdPlus_stdZR",
+        "diagnosis_most0_sec_stdZR",
+        "diagnosis_most1_sec_stdZR",
+        "emergency_most0_stdZR",
+        "emergency_most1_stdZR",
+        "mainboot_sec",
+        "mainimage_EU_dab0_hwr0_sec_stdPlus_stdZR_vw",
+        "mainimage_EU_dab1_hwr0_sec_stdPlus_stdZR_vw"
+      ]
+    },
+    "mainstd": {
+      "module_count": 48,
+      "modules": [
+        "animdata_EU_stdRadio_vw",
+        "bapcar_stdZR",
+        "bluetooth",
+        "boottable",
+        "carcom_most0_sec_stdRadio_stdZR",
+        "config_EU_sec",
+        "connectivitycommon",
+        "customerupdateinfos",
+        "debugtool_sec",
+        "diagnosis_most0_sec_stdZR",
+        "dsp_dab0_stdZR",
+        "dsp_dab1_stdZR",
+        "emergency_most0_stdZR",
+        "emmcrefresh",
+        "esd_sec",
+        "exlap",
+        "hmizr_EU_stdRadio_stdZR_vw",
+        "i18n_EU",
+        "itr",
+        "j9",
+        "logging",
+        "mainboot_sec",
+        "mainbspfs",
+        "mainimage_EU_sec_stdRadio",
+        "mediaimage_stdZR",
+        "messaging",
+        "mirrorlink_EU",
+        "misc",
+        "networkmgr_sec",
+        "openssl",
+        "organizer_EU",
+        "phone",
+        "radioconfig_sec_vw",
+        "radioimage_dab0_sec",
+        "radioimage_dab1_sec",
+        "serviceapple_vw",
+        "serviceusb_sec",
+        "stationdb_EU",
+        "swap",
+        "swapkeys_sec_vw",
+        "swdownload_sec",
+        "systemimage_hwr0_sec_stdZR",
+        "testinterface_sec",
+        "tnr",
+        "tools",
+        "trustedservices",
+        "wavefiles_vw",
+        "wirelessadapter_sec"
+      ]
+    },
+    "powerc": {
+      "module_count": 1,
+      "modules": [
+        "powerc"
+      ]
+    },
+    "DUV302": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV402": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV403": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV404": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV405": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV406": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV407": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV408": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV409": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV410": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV411": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV412": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV413": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV424": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV425": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV501": {
+      "module_count": 1,
+      "modules": [
+        "DUV"
+      ]
+    },
+    "DUV502": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV504": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUV505": {
+      "module_count": 3,
+      "modules": [
+        "DUV",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW022": {
+      "module_count": 3,
+      "modules": [
+        "DUW",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW023": {
+      "module_count": 3,
+      "modules": [
+        "DUW",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW027": {
+      "module_count": 3,
+      "modules": [
+        "DUW",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW028": {
+      "module_count": 1,
+      "modules": [
+        "DUW"
+      ]
+    },
+    "DUW029": {
+      "module_count": 3,
+      "modules": [
+        "DUW",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW063": {
+      "module_count": 3,
+      "modules": [
+        "DUW",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW064": {
+      "module_count": 3,
+      "modules": [
+        "DUW",
+        "HCPU",
+        "HDCH"
+      ]
+    },
+    "DUW065": {
+      "module_count": 1,
+      "modules": [
+        "DUW"
+      ]
+    },
+    "DUV600": {
+      "module_count": 2,
+      "modules": [
+        "HWR",
+        "Main"
+      ]
+    },
+    "DUV601": {
+      "module_count": 2,
+      "modules": [
+        "HWR",
+        "Main"
+      ]
+    },
+    "DUV602": {
+      "module_count": 2,
+      "modules": [
+        "HWR",
+        "Main"
+      ]
+    },
+    "DUV603": {
+      "module_count": 1,
+      "modules": [
+        "Main"
+      ]
+    },
+    "DUV604": {
+      "module_count": 1,
+      "modules": [
+        "Main"
+      ]
+    },
+    "DUV605": {
+      "module_count": 1,
+      "modules": [
+        "Main"
+      ]
+    },
+    "DUV606": {
+      "module_count": 1,
+      "modules": [
+        "Main"
+      ]
+    },
+    "DUV607": {
+      "module_count": 1,
+      "modules": [
+        "Main"
+      ]
+    },
+    "VW_MIB2_AMP": {
+      "module_count": 1,
+      "modules": [
+        "VW_MIB2_AMP"
+      ]
+    },
+    "MIBLite2_APN": {
+      "module_count": 1,
+      "modules": [
+        "MIBLite2_APPL"
+      ]
+    }
+  },
+  "signature": {
+    "signature1": "49ba69b53fd23677af2c49c9e971f709",
+    "signature2": "a9a1a3e84729a60d6ded8805f30111cd",
+    "signature3": "649b05a5c747a11fb8cff9c4378e1cc4",
+    "signature4": "7b902709e896185577d628371cf09445",
+    "signature5": "8eea13add15adbd41151b19c0d4d1114",
+    "signature6": "56c528b15b97fbb0a9eea784d96424c2",
+    "signature7": "1f8e5c67b2c5ada0b1c50d820c9b23a2",
+    "signature8": "ecfc554c07805c7d31a94a5c5764c470"
+  }
+}

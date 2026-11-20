@@ -1,0 +1,3 @@
+FileName = "/tsd/cpuplus_swdownload_sec_15_default.tar.gz"
+FileSize = "1572322"
+Checksum = "0000000000000000000000000000000000000000"

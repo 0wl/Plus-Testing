@@ -1,0 +1,49 @@
+#!/bin/sh
+
+var="$IPADDRESS"
+count=0
+while [ "$var" ] ;do
+    iter=${var%%.*}
+    array[count]=$iter;
+    count=$count+1;
+    [ "$var" = "$iter" ] && \
+        var='' || \
+        var="${var#*.}" 
+  done
+  
+echo "tsd.mibstd2.networking: dhcp-check: IPADDRESS $IPADDRESS" 
+echo "tsd.mibstd2.networking: dhcp-check: LEASEOBTAINED $LEASEOBTAINED" 
+echo "tsd.mibstd2.networking: dhcp-check: LEASEEXPIRES $LEASEEXPIRES"
+  
+retval=0
+  
+# Check if the sameip to the interface is already set (Renewal timer)
+renewalCheck=`ifconfig $INTERFACE | grep -c $IPADDRESS`
+
+if [ renewalCheck -gt 0  ]
+    then 
+        # IP is already set to the specific interface
+        echo "tsd.mibstd2.networking: dhcp-check: Renewal of Ipadress $IPADDRESS "
+        retval=0;
+    else
+        #Check if an subnet is already adressed to the device. 
+        subcheck=`ifconfig $INTERFACE | grep -c "${array[0]}\.${array[1]}\.${array[2]}"`
+        if [ $subcheck -gt 0 ]
+            then
+                # Subnet already adressed to the same interface, allowed
+                echo "tsd.mibstd2.networking: dhcp-check: Subnet allowed on the interface $INTERFACE "
+                retval=0;
+            else
+               # Check if the IP subnet is already adressed to another interface
+               value=`ifconfig | grep -c "${array[0]}\.${array[1]}\.${array[2]}"`
+               if [ $value -gt 0 ]
+                   then
+                       echo "tsd.mibstd2.networking: dhcp-check: Decline IP $IPADDRESS. Subnet already used from another interface"
+                       retval=1;
+                   else
+                       retval=0;
+               fi
+        fi
+fi
+
+exit $retval
